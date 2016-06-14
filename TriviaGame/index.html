@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+
+	<!-- css stylesheet link:RESET -->
+	<link rel="stylesheet" type="text/css" href="../assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+	<!-- BOOTSTRAP LINK CDN -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!-- jQuery link -->
+	<!-- jQuery -->
+	<!-- GOOGLE FONTS -->
+	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=PT+Serif:400italic' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<div class="container">
+		<br>
+		<br>
+		<br>
+  			<div class="jumbotron">
+  				<div class="nba">
+  					<h1> 2016 NBA Playoffs Trivia!</h1>
+  					<p>By David Bermudez</p>
+  					<img src="../assets/images/nbaLogo.jpg" height="75%" width="75%">
+  				</div>
+  				<br>
+  				<p><a class="btn btn-primary btn-lg" href="#" role="button">Click to Start Trivia Game</a></p>
+			</div>
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="timer">
+					</div>
+				</div>
+			</div>
+			
+			<br>
+			
+			<div class="row">
+				<div class="col-sm-12">
+					<form class="quiz">
+
+						1. How many teams made it to the NBA playoffs in 2016?
+						<ul style="margin-top: 1pt">
+						  <li><input type="radio" id="q1a" class="question1" name="q1" value="4"> 4</li>
+						  <li><input type="radio" id="q1b" class="question1" name="q1" value="8"> 8</li>
+						  <li><input type="radio" id="q1c" class="question1" name="q1" value="12"> 12</li>
+						  <li><input type="radio" id="q1d" class="question1" name="q1" value="16"> 16</li>
+						</ul>
+
+						<br>
+
+						2. How many conferences are there in the NBA?
+						<ul style="margin-top: 1pt">
+						  <li><input type="radio" id="q2a" name="q2" value="2"> 2</li>
+						  <li><input type="radio" id="q2b" name="q2" value="4"> 4</li>
+						  <li><input type="radio" id="q2c" name="q2" value="5"> 5</li>
+						  <li><input type="radio" id="q2d" name="q2" value="6"> 6</li>
+						</ul>
+						
+						<br>
+
+						3. Which team was the favorites to win it all at the beggining of the playoffs?
+						<ul style="margin-top: 1pt">
+						  <li><input type="radio" name="q3" id="q3a" value="Oklahoma City Thunder"> Oklahome City Thunder</li>
+						  <li><input type="radio" name="q3" id="q3b" value="Golden State Warriors"> Golden State Warriors</li>
+						  <li><input type="radio" name="q3" id="q3c" value="New York Knicks"> New York Knicks</li>
+						  <li><input type="radio" name="q3" id="q3d" value="Miami Heat"> Miami Heat</li>
+						</ul>
+
+						<br>
+						
+						4. What team does Lebron James play for?
+						<ul style="margin-top: 1pt">
+						  <li><input type="radio" name="q4" id="q4a" value="Miami Heat"> Miami Heat</li>
+						  <li><input type="radio" name="q4" id="q4b" value="Dallas Mavericks"> Dallas Mavericks</li>
+						  <li><input type="radio" name="q4" id="q4c" value="Cleveland Cavaliers"> Cleveland Cavaliers</li>
+						  <li><input type="radio" name="q4" id="q4d" value="Indiana Pacers"> Indiana Pacers</li>
+						</ul>
+
+						<br>
+
+						5. What number does Lebron James currently have?
+						<ul style="margin-top: 1pt">
+						  <li><input type="radio" name="q5" id="q5a" value="6"> 6</li>
+						  <li><input type="radio" name="q5" id="q4b" value="9"> 9</li>
+						  <li><input type="radio" name="q5" id="q5c" value="24"> 24</li>
+						  <li><input type="radio" name="q5" id="q5d" value="23"> 23</li>
+						</ul>
+
+						<br>
+
+						6. What team does Steph Curry play for?
+						<ul style="margin-top: 1pt">
+						  <li><input type="radio" name="q6" id="q6a" value="New York Knicks"> New York Knicks</li>
+						  <li><input type="radio" name="q6" id="q6b" value="Toronto Raptors"> Toronto Raptors</li>
+						  <li><input type="radio" name="q6" id="q6c" value="San Antonio Spurs"> San Antonio Spurs</li>
+						  <li><input type="radio" name="q6" id="q6d" value="Golden State Warriors"> Golden State Warriors</li>
+						</ul>
+						
+						<br>
+
+						7. What number does Steph Curry currently Have?
+						<ul style="margin-top: 1pt">
+						  <li><input type="radio" name="q7" id="q7a" value="30"> 30</li>
+						  <li><input type="radio" name="q7" id="q7b" value="7"> 7</li>
+						  <li><input type="radio" name="q7" id="q7c" value="29"> 29</li>
+						  <li><input type="radio" name="q7" id="q7d" value="14"> 14</li>
+						</ul>
+					
+					</form>
+					
+					<div class="col-md-4">						
+					</div>
+				<!-- Submit Button -->
+					<div class="col-md-4">
+						<button class="submit">Submit</button>
+					</div>
+				
+					<div class="col-md-4">
+					</div>
+
+				</div>
+			</div>
+
+			<br>
+			<!-- Results Area -->
+			<div class='row'>
+				<div class='col-md-12'>
+					<div class="results"></div>
+				</div>
+			</div>
+
+			
+			<!-- 	
+			<br>
+			<div class="row">
+				<div class="col-md-12">
+					<div>
+						<button class="submit">Submit</button>
+					</div>
+				</div>	 -->
+				
+
+	<script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+	<!-- link to JAVASCRIPT FILE!!! -->
+	<script src="../assets/javascript/trivia.js"></script>
+
+</body>
+</html>
+
+
+
+

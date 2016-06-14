@@ -1,0 +1,57 @@
+.jumbotron{
+	text-align: center;
+	align-items: center;
+	background-color: #A20932 !important;
+	/*opacity: .9;*/
+}
+.nba{
+	font-family: 'PT Serif', serif;
+	color:white;
+}
+.timer{
+	text-align: center;
+}
+body{
+	background-image: url("../images/pattern6.jpg"); 
+	background-size: 100%;
+	/*background-repeat: no-repeat;*/
+}
+.row{
+	background-color: #A20932;
+	color: white;
+	border-radius: 25px;
+	font-family: 'Courgette', cursive;
+	font-size: 28px;
+	opacity: .9;
+	list-style-position: inside;
+
+}
+.submit{
+	height: 100px;
+	width: 250px;
+	align: center;
+	color: black;
+	background-color: white;
+	margin-bottom: 15px;
+}
+.quiz{
+	padding: 15px;
+	/*display: none;*/
+}
+ul{
+	padding-left: 55px;
+}
+.results{
+  background: white;
+  width:100%;
+  height:200px;
+  overflow:auto;
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
+
+/*.test {
+	display: none;
+}*/
